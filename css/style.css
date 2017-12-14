@@ -1,1 +1,16 @@
 
+
+img{
+   width: 100%;
+}
+
+.start figure{
+    position: relative;
+}
+
+.start .text{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  
+}

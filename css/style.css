@@ -66,6 +66,7 @@ img{
 .experience h1,
 .education h1{
     font-size: 24px;
+    margin-top: 30px;
 }
 .experience h3,
 .education h3{
@@ -75,4 +76,20 @@ img{
 .education h4{
     font-size: 16px;
     color: #a0caea;
+}
+
+.experience{
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.experience .fa,
+.education .fa{
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.start .nine{
+    padding-left: 50px;
+    padding-right: 50px;
 }

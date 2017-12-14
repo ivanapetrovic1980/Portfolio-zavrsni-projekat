@@ -1,5 +1,6 @@
 *{
     font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
 }
 
 img{
@@ -44,4 +45,30 @@ img{
     border-radius: 50%;
     top: -4.5px;
     display: inline-block;
+}
+
+/*proba za span ikonice
+/*.experience span.two{
+    position: absolute;
+    left: 0; 
+}
+
+.experience span.one{
+    position: absolute;
+    left: 7px; 
+}*/
+
+.experience{
+    color: #737373;
+}
+
+.experience h1{
+    font-size: 24px;
+}
+.experience h3{
+    font-size: 18px;
+}
+.experience h4{
+    font-size: 16px;
+    color: #a0caea;
 }

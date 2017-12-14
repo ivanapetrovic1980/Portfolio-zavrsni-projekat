@@ -58,17 +58,21 @@ img{
     left: 7px; 
 }*/
 
-.experience{
+.experience,
+.education{
     color: #737373;
 }
 
-.experience h1{
+.experience h1,
+.education h1{
     font-size: 24px;
 }
-.experience h3{
+.experience h3,
+.education h3{
     font-size: 18px;
 }
-.experience h4{
+.experience h4,
+.education h4{
     font-size: 16px;
     color: #a0caea;
 }

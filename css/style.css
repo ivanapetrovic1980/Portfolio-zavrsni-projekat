@@ -14,7 +14,12 @@ img{
     position: absolute;
     bottom: 0;
     right: 0;
-  
+}
+.start .text h1{
+    font-size: 1.5rem;
+}
+.start .text h2{
+    font-size: 1rem;
 }
 
 .skill{
@@ -59,18 +64,20 @@ img{
 }*/
 
 .experience,
-.education{
+.education,
+.interests{
     color: #737373;
 }
 
 .experience h1,
-.education h1{
+.education h1,
+.interests h1{
     font-size: 24px;
     margin-top: 30px;
 }
 .experience h3,
 .education h3{
-    font-size: 18px;
+    font-size: 1rem;
 }
 .experience h4,
 .education h4{
@@ -78,20 +85,22 @@ img{
     color: #a0caea;
 }
 
-.experience{
+.experience,
+.interests{
     margin-bottom: 40px;
     margin-top: 40px;
 }
 
 .experience .fa,
-.education .fa{
+.education .fa,
+.interests .fa{
     margin-top: 30px;
     font-size: 30px;
 }
 
 .start .nine{
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .start .location p:last-of-type{
@@ -102,3 +111,31 @@ img{
 .start .location p:first-of-type sup{
     font-weight: lighter;
 }
+
+.interests article figure{
+    width: 50px;
+    height: 50px;
+}
+.interests article figure img{
+    max-width: 50%;
+}
+/*.interests article figure:last-of-type img{
+    max-width: 70%;
+}*/
+.interests span img{
+    max-width: 40%;
+}
+.big{
+    overflow: hidden;
+}
+
+.experience article,
+.education article,
+.interests article{
+    padding: 0 20px;
+    text-align: center;
+}
+.skills h3{
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+} 

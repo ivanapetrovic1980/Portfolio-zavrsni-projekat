@@ -6,10 +6,10 @@
 }
 
 @media(min-width:768px){
- .start .nine{
+/* .start .nine{
     padding-left: 35px;
     padding-right: 35px;
-}
+}*/
 
 .experience article,
 .education article,
@@ -30,6 +30,18 @@
     padding-left: 50px;
     padding-right: 50px;
 }
+
+.phone p,
+.mail p,
+.user p,
+.location p,
+.skills p{
+    font-size: 1.1rem;
+}
+
+.skills h3{
+    font-size: 1.4rem;
+} 
     
 }
 

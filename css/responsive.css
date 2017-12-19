@@ -1,52 +1,60 @@
 
 @media(min-width:576px){
- 
-    
-    
+
+    .start .text h1{
+        font-size: 2.5rem;
+    }
+
+    .start .text{
+        right: 35%;  
+    }
+
+
 }
 
 @media(min-width:768px){
-/* .start .nine{
-    padding-left: 35px;
-    padding-right: 35px;
-}*/
 
-.experience article,
-.education article,
-.interests article{
-    padding: 0 25px;
-    text-align: left;
-}
-    
-    
+    .experience article,
+    .education article,
+    .interests article{
+        padding: 0 25px;
+        text-align: left;
+    }
+    .start .text h1{
+        font-size: 1.5rem;
+    }
+    .start .text{
+        right: 20%;  
+    }
+
 }
 
 
 
 
 @media(min-width:992px){
-   
+
     .start .nine{
-    padding-left: 50px;
-    padding-right: 50px;
-}
+        padding-left: 50px;
+        padding-right: 50px;
+    }
 
-.phone p,
-.mail p,
-.user p,
-.location p,
-.skills p{
-    font-size: 1.1rem;
-}
+    .phone p,
+    .mail p,
+    .user p,
+    .location p,
+    .skills p{
+        font-size: 1.1rem;
+    }
 
-.skills h3{
-    font-size: 1.4rem;
-} 
-    
+    .skills h3{
+        font-size: 1.4rem;
+    } 
+
 }
 
 @media(min-width:1200px){
-   
-    
-    
+
+
+
 }

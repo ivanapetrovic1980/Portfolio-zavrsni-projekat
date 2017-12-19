@@ -35,10 +35,12 @@ img{
     position: relative;
     height: 2px;
     border-radius: 3px;
-    background: #ccc;
-    margin-bottom: 25px;
- 
-    
+    background: #1b87c9;
+    margin-bottom: 25px; 
+}
+
+.skills .last{
+    margin-bottom: 40px;
 }
 
 .skill .achievement{
@@ -110,16 +112,11 @@ aside .fa{
     font-weight: lighter;
 }
 
-/*.interests article figure{
-    width: 50px;
-    height: 50px;
-}*/
+
 .interests article figure img{
     max-width: 50%;
 }
-/*.interests article figure:last-of-type img{
-    max-width: 70%;
-}*/
+
 .interests span img{
     max-width: 40%;
 }
@@ -214,4 +211,9 @@ aside{
     color: #fff;
     font-size: 20px;
     text-transform: uppercase;
+}
+/* kraj sredjivanja side menija*/
+
+.website{
+    padding: 20px;
 }

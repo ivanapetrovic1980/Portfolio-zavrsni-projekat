@@ -159,12 +159,12 @@ $(document).ready(function () {
     $('.menu-overlay').click(function () {
         $(this).fadeOut();
         $('.menu').removeClass('active');
-        $('body').addClass('inactive');
+        $('body').removeClass('inactive');
     });
 
 
 
-})
+});
 
 
 

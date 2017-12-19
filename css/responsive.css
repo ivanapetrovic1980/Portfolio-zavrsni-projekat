@@ -8,7 +8,7 @@
     .start .text{
         right: 35%;  
     }
-
+    
 
 }
 
@@ -21,7 +21,7 @@
         text-align: left;
     }
     .start .text h1{
-        font-size: 2.5rem;
+        font-size: 1.8rem;
     }
     .start .text{
         right: 20%;  
@@ -34,10 +34,7 @@
 
 @media(min-width:992px){
 
-    .start .nine{
-        padding-left: 50px;
-        padding-right: 50px;
-    }
+    
 
     .phone p,
     .mail p,
@@ -51,10 +48,16 @@
         font-size: 1.4rem;
     } 
 
+    .start .text h1{
+        font-size: 2rem;
+    }
+
 }
 
 @media(min-width:1200px){
-
+    .start .text h1{
+        font-size: 2.4rem;
+    }
 
 
 }

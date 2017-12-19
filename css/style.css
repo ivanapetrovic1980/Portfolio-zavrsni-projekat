@@ -24,10 +24,11 @@ img{
     right: 20%;  
 }
 .start .text h1{
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 .start .text h2{
     font-size: 1rem;
+    font-weight: lighter;
 }
 
 .skill{
@@ -36,6 +37,7 @@ img{
     border-radius: 3px;
     background: #ccc;
     margin-bottom: 25px;
+ 
     
 }
 
@@ -60,16 +62,6 @@ img{
     display: inline-block;
 }
 
-/*proba za span ikonice
-/*.experience span.two{
-    position: absolute;
-    left: 0; 
-}
-
-.experience span.one{
-    position: absolute;
-    left: 7px; 
-}*/
 
 .experience,
 .education,
@@ -105,10 +97,8 @@ img{
     margin-top: 30px;
     font-size: 30px;
 }
-
-.start .nine{
-    padding-left: 25px;
-    padding-right: 25px;
+aside .fa{
+    font-size: 25px;
 }
 
 .start .location p:last-of-type{

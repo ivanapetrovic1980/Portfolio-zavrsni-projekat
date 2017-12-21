@@ -8,7 +8,9 @@
     .start .text{
         right: 35%;  
     }
-
+    .contact div.row{
+        padding-top: 15px;
+    }
 
 }
 
@@ -27,7 +29,7 @@
         right: 20%;  
     }
     .skill{
-        margin-bottom: 30px;
+        margin-bottom: 25px;
     }
     .skills .last{
         margin-bottom: 195px;
@@ -67,6 +69,13 @@
         margin-bottom: 5px;
     }
 
+    aside .fa,
+    .experience .fa,
+    .education .fa,
+    .interests .fa,
+    .contact .fa{
+        font-size: 30px;
+    }
 
 }
 

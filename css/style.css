@@ -36,7 +36,7 @@ img{
     height: 2px;
     border-radius: 3px;
     background: #1b87c9;
-    margin-bottom: 25px; 
+    margin-bottom: 20px; 
 }
 
 .skills .last{
@@ -68,7 +68,8 @@ img{
 .experience,
 .education,
 .interests,
-.contact{
+.contact,
+.gmap{
     color: #737373;
 }
 
@@ -90,7 +91,8 @@ img{
 }
 
 .experience,
-.interests{
+.interests,
+.gmap{
     margin-bottom: 40px;
     margin-top: 40px;
 }
@@ -100,10 +102,10 @@ img{
 .interests .fa,
 .contact .fa{
     margin-top: 30px;
-    font-size: 30px;
+    font-size: 1.5rem;
 }
 aside .fa{
-    font-size: 25px;
+    font-size: 1.2rem;
 }
 
 .start .location p:last-of-type{
@@ -239,29 +241,54 @@ aside{
     border: none;
     resize: none;
     border-radius: 0;
-    border-bottom: 1px solid #737373;
+    border-bottom: 1px solid rgba(118,114,112,0.5);
     margin-bottom: 10px;
 }
 
+.contact .form-control:hover{
+    border-bottom: 1px solid rgba(160,202,234,1);
+    margin-bottom: 10px;
+}
+.contact .form-control:focus{
+    box-shadow: 1px 1px 3px #a0caea;
+    border-bottom: 1px solid transparent;
+}
+
 .form-control::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: #1b87c9;
+  color: #5da4d9;
 }
 .form-control::-moz-placeholder { /* Firefox 19+ */
-  color: #1b87c9;
+  color: #5da4d9;
 }
 .form-control:-ms-input-placeholder { /* IE 10+ */
-  color: #1b87c9;
+  color: #5da4d9;
 }
 .form-control:-moz-placeholder { /* Firefox 18- */
-  color: #1b87c9;
+  color: #5da4d9;
 }
 
 .contact form button{
     padding: 5px 20px;
-    background-color: #4ca9de;
+    background-color: #5da4d9;
     color: #fff;
+    letter-spacing: 1px;
+    font-weight: bolder
+}
+
+.contact form button:hover{
+    background-color: #1b87c9;
+    color: #fff;
+    transition: 0.2s linear;
 }
 
 .contact .form-group{
      padding-right: 20px;
+}
+
+.contact div.row{
+    padding-left: 15px;
+}
+
+.gmap{
+    padding: 15px
 }

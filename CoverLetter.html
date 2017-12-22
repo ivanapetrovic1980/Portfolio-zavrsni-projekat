@@ -11,13 +11,14 @@
         <meta name="keywords" content="cv, resume writing">
 
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <title>CONTACT</title>
+        <title>COVER LETTER</title>
 
         <!-- Bootstrap -->
         <link href="css/bootstrap.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,500,700,900" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
 
         <link href="css/style.css" rel="stylesheet" type="text/css" />
         <link href="css/responsive.css" rel="stylesheet" type="text/css" />
@@ -185,122 +186,86 @@
 
                     <!--div col-8 start-->
                     <div class="col-md-8 nine">
+                        <!--section letter start-->
+                        <section class="letter" style="background-color: #fff">
+                            <p>20 January 2015</p>
+                            <address>
+                                Mr. Jonathon<br>
+                                Human Resources Manager<br>
+                                Creative Design Studio<br> 
+                                45 Wolf Street - NY5D34K<br>
+                            </address>
+                            <h3>Dear Sir/Madam</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                            </p>
+                            <p>
+                                Excepteur sint occaecat cupidatat non proident, sunt 
+                                in culpa qui officia deserunt mollit anim id est 
+                                labored ut perspiciatis unde omnis iste natus error 
+                                sit voluptatem accusantium doloremque laudantium, 
+                                totam rem aperiam, eaque ipsa quae ab illo inventore 
+                                veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+                            </p>
+                            <p>
+                                Ut enim ad minima veniam, quis nostrum exercitationem 
+                                ullam corporis suscipit laboriosam, nisi ut aliquid ex 
+                                ea commodi consequatur? Quis autem vel eum iure reprehenderit 
+                                qui in ea voluptate velit esse quam nihil molestiae consequatur 
+                                vel illum qui dolorem.
+                            </p>
+                            <p>Yours Sincerely</p>
+                            <figure>
+                                <img src="img/signature.jpg" alt=""/>
+                            </figure>
+                            <address>
+                                Mohaimenul Adnan<br>
+                                UI & UX Designer<br>
+                                Sylhet, Bangladesh.<br>
+                            </address>
+                        </section><!--section letter end-->
 
-                        <!--section gmap start-->
-                        <section class="gmap" style="background-color: #fff; min-height: 200px">
-                            <div id="map_wrapper">
-                                <div id="map"></div>
-                            </div>  
-
-                            <script>
-
-                                // This example displays a marker at the center of Australia.
-                                // When the user clicks the marker, an info window opens.
-
-                                function initMap() {
-                                    var uluru1 = {lat: 44.830999, lng: 20.410464};
-
-                                    var map = new google.maps.Map(document.getElementById('map'), {
-                                        zoom: 16,
-                                        center: uluru1
-
-
-                                    });
-
-                                    var contentString1 = '<div id="content" class="text-center">' +
-                                            '<img  class="img-fluid" style="max-width:260px" src="assets/sl.jpg"></img>' +
-                                            '<div id="bodyContent">' +
-                                            '<h2 style="margin-top:10px">Ivana Petrovic</h2>' +
-                                            '<p>Goce Delceva, 11070 Beograd</p>' +
-                                            '<p>Tel:011</p>' +
-                                            '</div>' +
-                                            '</div>';
-
-
-                                    var infowindow1 = new google.maps.InfoWindow({
-                                        content: contentString1
-                                    });
-
-
-                                    var marker1 = new google.maps.Marker({
-                                        position: uluru1,
-                                        map: map,
-                                        title: 'Ivana',
-                                        animation: google.maps.Animation.DROP
-                                    });
-                                    marker1.addListener('click', function () {
-                                        infowindow1.open(map, marker1);
-                                    });
-
-                                    marker1.addListener('click', toggleBounce);
-
-                                }
-
-
-                                function toggleBounce() {
-                                    if (marker1.getAnimation() !== null) {
-                                        marker1.setAnimation(null);
-                                    } else {
-                                        marker1.setAnimation(google.maps.Animation.BOUNCE);
-                                    }
-
-                                }
-
-                            </script>
-
-
-
-                            <script async defer
-                                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLh8CSXJBIWwgjdQ1mx6eWj7CxUrP8_XU&callback=initMap&scrollwheel=false">
-                            </script>
-
-                        </section><!--section gmap end-->
-
-                        <!--section contact start-->
-                        <section class="contact " style="background-color: #fff; min-height: 200px">
+                        <!--section references start-->
+                        <section class="references" style="background-color: #fff">
                             <div class="row">
-                                <div class="col-2 text-center">
-                                    <span class="fa fa-paper-plane-o"></span>
+                                <div class="col-md-2 text-center pr-0">
+                                    <span class="fa fa-graduation-cap"></span>
                                 </div>
+                                <div class="col-md-10 big text-center text-md-left"> 
+                                    <article>
+                                        <h1 class="mb-3"><b>References</b></h1>
+                                        <h3>Mr. John Doe</h3>
+                                        <h4>Founder & CEO, Lorem Ipsum</h4>
+                                        <p class="mb-4">
+                                            Lorem ipsum dolor sit amet, consectetur 
+                                            adipiscing elit, sed do eiusmod tempor 
+                                            incididunt ut labore et dolore magna aliqua. 
+                                        </p>
+                                    </article>
+                                    <hr>
+                                    <article>
+                                        <h3>Mr. Anwar Hosain</h3>
+                                        <h4>Co-Founder & CEO, MedA-ID</h4>
+                                        <p class="mb-4">
+                                            Lorem ipsum dolor sit amet, consectetur 
+                                            adipiscing elit, sed do eiusmod tempor 
+                                            incididunt ut labore et dolore magna aliqua. 
+                                        </p> 
+                                    </article>
 
-                                <div class="col-10">
-                                    <h1 class="mb-4"><b>Contact</b></h1>
-                                    <form method="get" action="">
-                                        <div class="form-group mb-4">
-                                            <input type="text" name="name" value="" class="form-control" placeholder="Name *">
-                                        </div>
-                                        <div class="form-group mb-4">
-                                            <input type="email" name="email" value="" class="form-control" placeholder="Email *">
-                                        </div>
-                                        <div class="form-group mb-4">
-                                            <textarea class="form-control" placeholder="Message *"></textarea>
-                                        </div>
-                                        <button type="submit" class="btn mb-4 text-center">SUBMIT</button>
-                                    </form>
                                 </div>
                             </div>
-                        </section><!--section contact end-->
-
-
-
-                        <!--section website start-->
-                        <section class="website text-center" style="background-color: #fff; color:#69b2e2;">
-                            <div class="row">
-                                <div class="col-sm-6 pb-2 pb-sm-0">
-                                    <a href="www.alrayhan.com">www.alrayhan.com</a>
-                                </div>
-                                <div class="col-sm-6 pb-2 pb-sm-0">
-                                    <a href="www.dribbble.com/rtralrayhan">dribbble.com/rtralrayhan</a>
-                                </div>
-                            </div>
-                        </section><!--section website end-->
+                        </section><!--section references end-->
                     </div><!--div col-8 end-->
                 </div>
             </main>
 
 
             <!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5a391e3a0642e712"></script> 
-
 
 
         </div>

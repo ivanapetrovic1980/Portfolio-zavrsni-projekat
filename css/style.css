@@ -181,15 +181,23 @@ aside .fa{
 /* sredjivanje dugmeta za meni sa strane na casu*/
 
 .toggle-menu{
-    padding: 10px;
-    border: 1px solid #000;
+    padding: 7px;
+    border: 2px solid rgba(56,164,221,0.5);
+    background-color: rgba(255,255,255,0.8);
     position: absolute;
     top: 20px;
     left: 20px;
     z-index: 10;
     border-radius: 5px;
 }
-
+.toggle-menu:hover{
+    background-color: #fff;
+    transition: 0.4s linear;
+    border: 2px solid rgba(56,164,221,0.7);
+}
+.toggle-menu:hover span{
+    background: rgba(56,164,221,0.7);
+}
 aside{
     position: relative;
 }
@@ -197,9 +205,9 @@ aside{
 .toggle-menu span{
     display: block;
     height: 2px;
-    background: #000;
+    background: rgba(56,164,221,0.7);
     margin-bottom: 3px;
-    width: 20px;
+    width: 15px;
 }
 .toggle-menu span:last-of-type{
     margin-bottom: 0;

@@ -12,6 +12,12 @@
         width: 30%;
         height: 30%;
     }
+    .toggle-menu{
+        padding: 10px;
+    }
+    .toggle-menu span{
+        width: 20px;
+    }
 
 }
 

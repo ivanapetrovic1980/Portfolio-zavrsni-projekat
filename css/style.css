@@ -267,6 +267,21 @@ aside{
     position: relative;
 }
 
+.portfolio .colored,
+.portfolio p{
+    padding: 20px;
+    color: #737373; 
+}
+.portfolio .colored h2{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+.portfolio .colored h3{
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
 #map_wrapper {
     height: 400px;
 

@@ -69,7 +69,8 @@
     .user p,
     .location p,
     .skills p,
-    .portfolio p{
+    .portfolio p,
+    .single p{
         font-size: 1.1rem;
     }
 

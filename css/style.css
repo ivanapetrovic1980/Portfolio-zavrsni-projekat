@@ -120,7 +120,8 @@ img{
 .experience,
 .interests,
 .gmap,
-.letter{
+.letter,
+.single{
     margin-bottom: 35px;
     margin-top: 35px;
 }
@@ -178,7 +179,8 @@ aside .fa{
 .user p,
 .location p,
 .skills p,
-.portfolio p{
+.portfolio p,
+.single p{
     font-size: 0.9rem;
 }
 
@@ -277,22 +279,32 @@ aside{
     position: relative;
 }
 
+.single .colored,
+.single p,
 .portfolio .colored,
 .portfolio p{
     padding: 20px;
     color: #737373; 
 }
-.portfolio .colored h2{
+.portfolio .colored h2,
+.single .colored h2{
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
 }
-.portfolio .colored h3{
+.portfolio .colored h3,
+.single .colored h3{
     font-size: 1rem;
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
 }
-
+.single .move{
+    padding-left: 20px;
+}
+.single .doe{
+    max-width: 100%;
+    height: 100%;
+}
 .portfolio .shadow{
     margin-bottom: 1rem;
 }
@@ -362,7 +374,8 @@ aside{
 .website:hover,
 .gmap:hover,
 .letter:hover,
-.portfolio .shadow:hover{
+.portfolio .shadow:hover,
+.single .shadow:hover{
     box-shadow:  0 0 10px #737373;
     transition: 0.7s linear;
 }

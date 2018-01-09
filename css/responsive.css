@@ -18,7 +18,9 @@
     .toggle-menu span{
         width: 20px;
     }
-
+    .contact{
+        margin-bottom: 35px;
+    }
 }
 
 @media(min-width:768px){
@@ -41,9 +43,18 @@
     }
 
     .skills .last{
-        margin-bottom: 415px;
+        margin-bottom: 0;
     }
-    
+    .portfolio .reversed{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .portfolio figure:last-of-type{
+        height: 100%;
+    }
+    .portfolio img:last-of-type{
+        height: 100%;
+    }
 
 
 }
@@ -57,7 +68,8 @@
     .mail p,
     .user p,
     .location p,
-    .skills p{
+    .skills p,
+    .portfolio p{
         font-size: 1.1rem;
     }
 
@@ -86,9 +98,9 @@
     .mail p:nth-of-type(4){
         font-size: 0.9rem;
     }
-    .skills .last{
-        margin-bottom: 185px;
-    }
+    /*    .skills .last{
+            margin-bottom: 185px;
+        }*/
     .letter img{
         width: 25%;
         height: 25%;
@@ -100,9 +112,9 @@
     .start .text h1{
         font-size: 2.4rem;
     }
-    .skills .last{
-        margin-bottom: 195px;
-    }
+    /*    .skills .last{
+            margin-bottom: 195px;
+        }*/
 
 
 }

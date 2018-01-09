@@ -79,7 +79,15 @@ img{
     top: -4.5px;
     display: inline-block;
 }
-
+.menu span{
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    color: #fff;
+}
+.menu span:hover{
+    color: #eae8e7;
+}
 
 .experience,
 .education,
@@ -252,7 +260,7 @@ aside{
 .menu .side-menu{
     height: 100vh;
     background: rgba(56,164,221,0.7);
-    padding-top: 20px;
+    padding-top: 30px;
     min-width: 200px;
 }
 

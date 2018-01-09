@@ -163,6 +163,11 @@ $(document).ready(function () {
     });
 
 
+$('.menu span.fa-close').click(function () {
+        $('.menu-overlay').fadeOut();
+        $('.menu').removeClass('active');
+        $('body').removeClass('inactive');
+    });
 
 });
 

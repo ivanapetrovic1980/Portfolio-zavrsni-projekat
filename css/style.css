@@ -294,6 +294,28 @@ aside{
     padding: 20px;
     color: #737373; 
 }
+
+.portfolio .plate:hover{
+    background-color: rgba(241,92,91,0.5)!important;
+    transition: 0.5s ease-out;
+}
+.portfolio .bird:hover{
+    background-color: rgba(106,116,132,0.5)!important;
+    transition: 0.5s ease-out;
+}
+.portfolio .headphones:hover{
+    background-color: rgba(85,81,87,0.5)!important;
+    transition: 0.5s ease-out;
+}
+.portfolio .friends:hover{
+    background-color: rgba(28,190,200,0.5)!important;
+    transition: 0.5s ease-out;
+}
+.portfolio .food:hover{
+    background-color: rgba(244,190,24,0.5)!important;
+    transition: 0.5s ease-out;
+}
+
 .portfolio .colored h2,
 .single .colored h2{
     font-size: 30px;

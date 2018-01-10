@@ -55,9 +55,9 @@ img{
     margin-bottom: 20px; 
 }
 
-.skills .last{
+/*.skills .last{
     margin-bottom: 40px;
-}
+}*/
 
 .skill .achievement{
     position: absolute;
@@ -494,5 +494,25 @@ aside{
     animation-duration: 1s;
 }
 
+
+@keyframes pulse {
+    from {
+        transform: scale3d(1, 1, 1);
+    }
+
+    50% {
+        transform: scale3d(1.05, 1.05, 1.05);
+    }
+
+    to {
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+.pulse {
+    animation-name: pulse;
+    visibility: visible;
+    animation-duration: 1s;
+}
 
 /*animation end*/

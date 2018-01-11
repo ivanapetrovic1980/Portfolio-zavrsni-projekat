@@ -571,3 +571,37 @@ aside{
     animation-duration: 2s;
 }
 /* flipInX animation end*/
+
+.hover-animate img{
+    width: 52.5%;
+}
+.hover-animate{
+    position: absolute;
+    top: 11%;
+    text-align: center;
+}
+
+
+
+@keyframes rotateIn {
+    from {
+        transform-origin: center;
+        transform: rotate3d(0, 0, 1, -200deg);
+        animation-timing-function: ease-out;
+        opacity: 0;
+    }
+
+    to {
+        transform-origin: center;
+        transform: none;
+        animation-timing-function: ease-out;
+        opacity: 1;
+    }
+}
+
+.rotateIn {
+    animation-name: rotateIn;
+    visibility: visible;
+    animation-duration: 3s;
+}
+

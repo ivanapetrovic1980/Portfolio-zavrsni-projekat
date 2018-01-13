@@ -348,7 +348,8 @@ aside{
     height: 100%;
 }
 
-.contact .form-control{
+.contact .form-control,
+.comment .form-control{
     border: none;
     resize: none;
     border-radius: 0;
@@ -356,11 +357,13 @@ aside{
     margin-bottom: 10px;
 }
 
-.contact .form-control:hover{
+.contact .form-control:hover,
+.comment .form-control:hover{
     border-bottom: 1px solid rgba(160,202,234,1);
     margin-bottom: 10px;
 }
-.contact .form-control:focus{
+.contact .form-control:focus,
+.comment .form-control:focus{
     box-shadow: 1px 1px 3px #a0caea;
     /*    border-bottom: 1px solid transparent;*/
 }
@@ -378,7 +381,22 @@ aside{
     color: #5da4d9;
 }
 
-.contact form button{
+
+.comment .form-control::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #9e9e9e;
+}
+.comment .form-control::-moz-placeholder { /* Firefox 19+ */
+    color: #9e9e9e;
+}
+.comment .form-control:-ms-input-placeholder { /* IE 10+ */
+    color: #9e9e9e;
+}
+.comment .form-control:-moz-placeholder { /* Firefox 18- */
+   color: #9e9e9e;
+}
+
+.contact form button,
+.comment form button{
     padding: 5px 20px;
     background-color: #5da4d9;
     color: #fff;
@@ -386,7 +404,8 @@ aside{
     font-weight: bolder
 }
 
-.contact form button:hover{
+.contact form button:hover,
+.comment form button:hover{
     background-color: #1b87c9;
     color: #fff;
     transition: 0.2s linear;
@@ -395,10 +414,14 @@ aside{
 .contact div.row{
     padding-left: 15px;
 }
+.comment div.row{
+    padding: 30px;
+}
 
 .experience:hover,
 .education:hover,
 .contact:hover,
+.comment:hover,
 .references:hover,
 .interests:hover,
 .website:hover,

@@ -259,7 +259,7 @@ aside{
 
 .menu .side-menu{
     height: 100vh;
-    background: rgba(56,164,221,0.7);
+    background: rgba(56,164,221,1);
     padding-top: 30px;
     min-width: 200px;
 }
@@ -448,7 +448,6 @@ aside{
 .animation{
     visibility: hidden;
     position: relative;
-    transition: 1s linear;
 }
 
 @keyframes slideLeft{
@@ -568,7 +567,7 @@ aside{
 .flipInX {
     animation-name: flipInX;
     visibility: visible;
-    animation-duration: 2s;
+    animation-duration: 3s;
 }
 /* flipInX animation end*/
 

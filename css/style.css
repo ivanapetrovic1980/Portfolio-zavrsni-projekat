@@ -392,7 +392,7 @@ aside{
     color: #9e9e9e;
 }
 .comment .form-control:-moz-placeholder { /* Firefox 18- */
-   color: #9e9e9e;
+    color: #9e9e9e;
 }
 
 .contact form button,
@@ -428,7 +428,8 @@ aside{
 .gmap:hover,
 .letter:hover,
 .portfolio .shadow:hover,
-.single .shadow:hover{
+.single .shadow:hover,
+.project .shadow:hover{
     box-shadow:  0 0 10px #737373;
     transition: 0.7s linear;
 }
@@ -604,7 +605,7 @@ aside{
 }
 
 
-
+/* rotateIn animation start */
 @keyframes rotateIn {
     from {
         transform-origin: center;
@@ -626,4 +627,40 @@ aside{
     visibility: visible;
     animation-duration: 3s;
 }
+/* rotateIn animation end */
 
+.project .hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    visibility: hidden;
+}
+.project figure:hover .hover{
+    visibility: visible;
+    transition: 1s linear;
+}
+.project .shadow a:hover{
+    text-decoration: none;
+}
+
+/*fadeInUp animation start*/
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fadeInUp {
+  animation-name: fadeInUp;
+  visibility: visible;
+  animation-duration: 2s;
+}
+/*fadeInUp animation end*/
